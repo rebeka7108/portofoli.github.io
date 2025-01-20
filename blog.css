@@ -1,0 +1,117 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f1f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #f5a9d7; 
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #f5a9d7;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #e63946;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+ul li {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+
+.empatia, .inteligjenca-emocionale, .rendesi, .ndryshimet {
+    margin-bottom: 30px;
+}
+
+.empatia p, .inteligjenca-emocionale p, .rendesi p, .ndryshimet p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+
+footer {
+    background-color: #f5a9d7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+h2:hover {
+    color: #e63946;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    main {
+        padding: 15px;
+    }
+    ul li {
+        font-size: 0.9rem;
+    }
+}
